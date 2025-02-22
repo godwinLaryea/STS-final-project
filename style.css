@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+:root{
+    --primary-font: "Inter", sans-serif;
+    --primary-bg-color: #7F56D9;
+    --secondary-bg-color: #ffff;
+}
+
+
+header {
+    margin-top: 0.5rem;
+    max-width: 90rem;
+    width: 100%;
+    height: 5rem;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80rem;
+    height: 2.75rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+ul {
+    display: flex;
+    gap: 3.5rem;
+}
+
+ul li a, ul li select{
+    font-size: 1rem;
+    font-family: var(--primary-font);
+}
+
+nav img {
+    margin-right: -1.9rem;
+    height: 1.8rem;
+}
+
+nav h1 a{
+    font-size: 1.2rem;
+    font-family: var(--primary-font);
+}
+
+#products,
+#resources {
+    border: none;
+    cursor: pointer;
+}
+
+#products {
+    width: 5.6rem;
+}
+
+#resources {
+    width: 6.8rem;
+}
+
+.login-btn, .signup-btn {
+    border: none;
+    padding: 0.525rem 1.125rem;
+    border-radius: 0.5rem;
+    
+    font-size: 1rem;
+    font-family: var(--primary-font);
+}
+
+.login-btn{
+    background-color: var(--secondary-bg-color);
+}
+
+.signup-btn{
+    background-color: var(--primary-bg-color);
+}
+
+.login-btn:hover, .signup-btn:hover {
+    opacity: 0.6;
+}
+
+.signup-btn a {
+    color: white;
+}
