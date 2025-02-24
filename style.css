@@ -33,18 +33,25 @@
 nav {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
 }
 
 ul {
     display: flex;
-    gap: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
 }
 
-ul li a,
-ul li select {
+ul li a {
     font-size: 1rem;
     font-family: var(--primary-font);
+}
+
+.material-symbols-outlined{
+    vertical-align: top;
+    height: 1rem;
 }
 
 nav img {
@@ -55,20 +62,6 @@ nav img {
 nav h1 a {
     font-size: 1.1rem;
     font-family: var(--primary-font);
-}
-
-#products,
-#resources {
-    border: none;
-    cursor: pointer;
-}
-
-#products {
-    width: 5.6rem;
-}
-
-#resources {
-    width: 6.8rem;
 }
 
 .login-btn,
