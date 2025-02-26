@@ -15,7 +15,7 @@
 }
 
 .wrapper {
-    max-width: 90rem;
+    width: 90rem;
     height: 50rem;
     margin: auto;
 }
@@ -49,7 +49,7 @@ ul li a {
     font-family: var(--primary-font);
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined {
     vertical-align: top;
     height: 1rem;
 }
@@ -89,4 +89,111 @@ nav h1 a {
 
 .signup-btn a {
     color: white;
+}
+
+.hero-section {
+    display: flex;
+    max-width: 90rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-section {
+    max-width: 45rem;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.about-section p {
+    font-family: var(--primary-font);
+}
+
+.image-section {
+    width: 100%;
+}
+
+.join-us {
+    width: fit-content;
+    padding: .25rem .625rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #E9D7FE;
+    border-radius: 1rem;
+    background-color: #e9d7fe44;
+}
+
+.hiring {
+    border: 1px solid #D6BBFB;
+    border-radius: 1rem;
+    padding: .125rem .625rem;
+    margin-right: 0.5rem;
+    background-color: #ffff;
+    color: #6941C6;
+}
+
+.remote {
+    position: relative;
+    padding-right: 0.3rem;
+    color: #6941C6;
+    margin-right: 0.5rem;
+}
+
+.arrow {
+    position: absolute;
+    top: 0.1rem;
+}
+
+.arrow img {
+    width: 1rem;
+}
+
+.heading {
+    margin: 1rem 0;
+    font-size: 3.75rem;
+    font-family: var(--primary-font);
+    max-width: 34.625rem;
+}
+
+.heading-info {
+    max-width: 30rem;
+    line-height: 1.875rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.email-form {
+    margin: 1rem 0 0.5rem;
+    max-width: 31.5625rem;
+}
+
+#email {
+    width: 22.5rem;
+    padding: .75rem .875rem;
+    border-radius: .5rem;
+    border: 1px solid #D0D5DD;
+    margin-right: 0.2rem;
+}
+
+.email-form>button {
+    width: 8.0625rem;
+    padding: .75rem 1.25rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    border: none;
+    background-color: var(--primary-bg-color);
+    color: white;
+    font-family: var(--primary-font);
+}
+
+.about-section p a {
+    text-decoration: underline;
+    font-family: var(--primary-font);
+}
+
+.about-section p a:hover {
+    color: var(--primary-bg-color);
+
 }
